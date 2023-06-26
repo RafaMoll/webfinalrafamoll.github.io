@@ -1,0 +1,89 @@
+.header {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .carousel {
+    flex: 1;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .carousel img {
+    scroll-snap-align: start;
+    width: 1920px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .text {
+    flex: 1;
+    padding: 20px;
+    color: white;
+  }
+  
+  .text h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .text p {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .header {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .carousel {
+    flex: 1;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .carousel img {
+    scroll-snap-align: start;
+    width: 1920px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .text {
+    flex: 1;
+    padding: 20px;
+    color: white;
+  }
+  
+  .text h1 {
+    font-size: 48px;
+    font-family: "Helvetica", Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .text p {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .text h2 {
+    font-size: 12px;
+    font-family: "Helvetica", Arial, sans-serif;
+    margin: 0;
+  }
+
+  .separator {
+    height: 2px;
+    background-color: black;
+  }
